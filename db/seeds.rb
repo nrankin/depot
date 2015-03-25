@@ -16,3 +16,19 @@ Product.create!(title: 'Programming Ruby 1.9 & 2.0',
     },
   image_url: 'ruby.jpg',
   price: 49.95)
+
+Product.create!(title: 'Learning Sassy CSS',
+  description:
+    %{<p>  Okay, it's a dumb name but sounds like a cool thing to learn. </p>
+    },
+                image_url: 'css.jpg',
+                price: 39.95)
+
+Product.create!(title: 'Testing Rails',
+  description:
+    %{<p>  Testing is essential, learn how to do it effortlessly and elegantly
+        with rspec for ruby on rails.
+        Unit or integration tests, plus cucumber for system test.  </p>
+    },
+                image_url: 'rspec.jpg',
+                price: 89.95)
